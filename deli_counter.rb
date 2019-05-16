@@ -17,10 +17,7 @@ def now_serving(katz_deli)
   
 else
    puts "Currently serving: #{katz_deli.shift}."
-   remove_from_line = katz_deli.shift
-   remove_from_line
-  end
 end
-
+end
 
 now_serving(katz_deli)
