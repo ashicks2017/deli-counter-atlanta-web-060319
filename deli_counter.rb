@@ -7,14 +7,6 @@ def take_a_number(katz_deli, name)
   return name, place_in_line
 end
 
-def take_a_numbers(katz_deli,name)
-  place_in_line = katz_deli.index(name)
-  katz_deli.each do |name|
-  puts "Welcome, #{name}."
-  return name
- end
-end
-
 take_a_numbers(katz_deli,"Grace")
 take_a_numbers(katz_deli,"Tom")
 take_a_numbers(katz_deli,"Alan")
