@@ -16,40 +16,14 @@ def line(katz_deli)
     puts "The line is currently empty"
     
   else
-    message =""
-end
-
-def line(katz_deli)
-  if katz_deli.length == 0
-    puts "The line is currently empty."
-  else
-    message="The line is currently:"
-
+    message ="Currently in the line:"
     katz_deli.each_with_index do |value, index|
-      message += " #{index.to_i+1}. #{value}"
-    end
-
-    puts "#{message}"
-  end
-
-
+    message += "#{index.to_i+1}. #{value}"
+end
+   puts "#{message}"
 end
 
-def line(katz_deli)
-  if katz_deli.length == 0
-    puts "The line is currently empty."
-  else
-    message="The line is currently:"
-
-    katz_deli.each_with_index do |value, index|
-      message += " #{index.to_i+1}. #{value}"
-    end
-
-    puts "#{message}"
-  end
-
-
-end
+line(katz_deli)
 
 def now_serving(katz_deli)
   if katz_deli.length == 0 
