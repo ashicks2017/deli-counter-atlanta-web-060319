@@ -22,7 +22,7 @@ def line(katz_deli)
 end
    puts "#{message}"
 end
-
+end
 line(katz_deli)
 
 def now_serving(katz_deli)
@@ -31,7 +31,9 @@ def now_serving(katz_deli)
   
 else
    puts "Currently serving: #{katz_deli.shift}."
-end
+ end
 end
 
 now_serving(katz_deli)
+
+
