@@ -13,6 +13,7 @@ def take_a_numbers(katz_deli,name)
   puts "Welcome, #{name}. You are number #{place_in_line+1} in line."
   return name, place_in_line
 end
+end
 take_a_numbers(katz_deli,"Grace")
 take_a_numbers(katz_deli,"Tom")
 take_a_numbers(katz_deli,"Alan")
