@@ -16,6 +16,7 @@ def line
 end
 
 def now_serving(katz_deli)
-  if 
+  if katz_deli = 0 
+    
   
 end
