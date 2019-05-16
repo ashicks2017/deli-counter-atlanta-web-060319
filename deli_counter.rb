@@ -11,10 +11,6 @@ take_a_number(katz_deli,"Grace")
 take_a_number(katz_deli,"Tom")
 take_a_number(katz_deli,"Alan")
 
-def line
-  
-end
-
 def now_serving(katz_deli)
   if katz_deli == 0 
     puts "There is nobody waiting to be served!"
