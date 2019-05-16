@@ -15,4 +15,7 @@ def line
   
 end
 
-def now_serving()
+def now_serving(katz_deli)
+  if 
+  
+end
