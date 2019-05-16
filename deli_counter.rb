@@ -24,7 +24,7 @@ def line(katz_deli)
 end
   puts "#{message}"
 end
-
+end
 line(katz_deli)
 
 def now_serving(katz_deli)
