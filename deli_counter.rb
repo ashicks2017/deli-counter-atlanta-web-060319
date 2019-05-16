@@ -14,3 +14,5 @@ take_a_number(katz_deli,"Alan")
 def line
   
 end
+
+def now_serving()
