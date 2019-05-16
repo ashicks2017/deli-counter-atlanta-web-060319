@@ -22,7 +22,7 @@ if katz_deli.length == 0
   end 
   puts "#{message}"
   end 
-
+end
 line(katz_deli)
 
 def now_serving(katz_deli)
