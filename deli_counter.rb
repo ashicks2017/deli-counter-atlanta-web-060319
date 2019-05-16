@@ -7,8 +7,8 @@ def take_a_number(katz_deli, name)
   return name, place_in_line
 end
 
-take_a_numbers(katz_deli,"Grace")
-take_a_numbers(katz_deli,"Tom")
-take_a_numbers(katz_deli,"Alan")
+take_a_number(katz_deli,"Grace")
+take_a_number(katz_deli,"Tom")
+take_a_number(katz_deli,"Alan")
 
 
